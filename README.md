@@ -19,7 +19,7 @@ git push
 ```  
 git remote -v   
 // master, set-url은 변경 가능
-git remote add master https://github.com/Cho-DSC/website.git
-git remote add set-url git@github.com:Cho-DSC/website.git
+git remote add set-url https://github.com/Cho-DSC/website.git
+git remote add master git@github.com:Cho-DSC/website.git
 git push master master
 ``` 
