@@ -1,6 +1,8 @@
 const BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
+
+  lintOnSave: false,
   publicPath: 'http://3.36.100.124:8080/',
   outputDir: './dist/',
 
