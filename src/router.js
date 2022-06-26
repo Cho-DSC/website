@@ -1,8 +1,8 @@
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import Lotto from './views/Lotto.vue'
 import NotFound from './views/NotFound.vue'
 import { createWebHistory, createRouter } from "vue-router"
-import Vue from 'vue'
 
 const routes = [
     {
@@ -12,6 +12,10 @@ const routes = [
     {
         path: '/about',
         component: About
+    },
+    {
+        path: '/lotto',
+        component: Lotto,
     },
     {
         path: '/:catchAll(.*)',

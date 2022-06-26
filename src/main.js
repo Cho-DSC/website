@@ -6,6 +6,7 @@ import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000'
 
-createApp(App).use(router, axios).mount('#app')
+const app = createApp(App).use(router).mount('#app')
+app.config.globalProperties.$axios = axios;
+app.mount('#app')
